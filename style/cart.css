@@ -50,8 +50,8 @@
     background:white;
     border-radius: 10px;
     border: solid ;
-    margin-left:25%;
-    margin-top: 5%;
+    /* margin-left:25%;
+    margin-top: 5%; */
 }
 
 .tb_cart{ 
@@ -64,6 +64,14 @@
 .img{
     width: 150px;
    
+}
+
+#table{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    
 }
 
 

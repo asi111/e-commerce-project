@@ -33,7 +33,7 @@ for(let i = 0 ; i < cartObj.length; i++){
     <tr class = "cartTableRow">    
     <td class="tb_cart"> <img  src="${cartObj[i].img}"  class="img"></td>
     <td class="tb_cart">  ${cartObj[i].Name}</td>
-    <td class="tb_cart"> $${cartObj[i].price} </td>
+    <td class="tb_cart" > $${cartObj[i].price} </td>
     <td> <button  class = "btn">remove item</button></td>
     </tr>`
     sum+= Number(cartObj[i].price);
